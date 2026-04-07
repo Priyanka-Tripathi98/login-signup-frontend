@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* Background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url('/bg.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+/* Glass Card */
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.15); /* less transparent */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  color: white;
+  text-align: center;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+
+/* Input */
+.input-box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+.input-box label {
+   font-size: 14px;
+  color: #eee;
+}
+.input-box input:focus + label,
+.input-box input:valid + label {
+  top: -10px;
+  font-size: 12px;
+}
+
+/* File input */
+.file-box {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.file-box input {
+  width: 100%;
+  color: white;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00c6ff;
+}
