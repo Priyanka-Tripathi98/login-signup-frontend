@@ -16,7 +16,7 @@ function Login(){
       e.preventDefault();
     
     try{
-        const res = await fetch("http://localhost:8001/login",{
+        const res = await fetch("https://login-signup-frontend-bx3j.onrender.com/login",{
           method : "POST",
           headers:{
            "Content-Type":"application/json"

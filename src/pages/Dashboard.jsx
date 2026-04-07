@@ -12,7 +12,7 @@ export function Dashboard(){
         navigate("/login");
         return;
     }
-    axios.get("http://localhost:8001/dashboard",{
+    axios.get("https://login-signup-frontend-bx3j.onrender.com/dashboard",{
         headers:{
             Authorization: `Bearer ${token}`
         }
