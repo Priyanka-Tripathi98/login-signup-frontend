@@ -31,7 +31,7 @@ function Productform() {
     formData.append("product_image", Form.product_image);
 
     try {
-      const res = await fetch("https://login-signup-frontend-bx3j.onrender.com/product", {
+      const res = await fetch("https://login-signup-backend-2aw2.onrender.com/product", {
         method: "POST",
         body: formData,
       });

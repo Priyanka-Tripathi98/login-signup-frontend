@@ -18,7 +18,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const res = await fetch("https://login-signup-frontend-bx3j.onrender.com/signup", {
+      const res = await fetch("https://login-signup-backend-2aw2.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
