@@ -34,6 +34,7 @@ function Productform() {
       const res = await fetch("https://login-signup-backend-2aw2.onrender.com/product", {
         method: "POST",
         body: formData,
+        credentials: "include",
       });
 
       const data = await res.json();
