@@ -5,14 +5,14 @@ import { Dashboard}  from "./pages/Dashboard"
 import Product from "./pages/Product"
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element ={<Dashboard/>}/>
         <Route path="/product" element ={<Product/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
